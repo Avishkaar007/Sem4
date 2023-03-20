@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1044373568756",
+    "project_id": "du-3-e330f",
+    "storage_bucket": "du-3-e330f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044373568756:android:589072dacdc956b6c232a1",
+        "android_client_info": {
+          "package_name": "college.q3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044373568756-ptmot954n0bvarohtfr1ih6mlfm1osjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3kHJ7HBWmNs0kTK40pXqm_9JWUbRKPCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044373568756-ptmot954n0bvarohtfr1ih6mlfm1osjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
