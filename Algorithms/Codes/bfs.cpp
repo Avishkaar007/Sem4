@@ -40,7 +40,7 @@ void Graph::BFS(int s)
     queue.push_back(s);
 
     while (!queue.empty())
-    
+    {
         // Dequeue and print
         s = queue.front();
         cout << s << " ";

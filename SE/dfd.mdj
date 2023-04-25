@@ -1,0 +1,227 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGHNnyhnJeZ4ck=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGHNnyhnJeaV1o=",
+					"_parent": {
+						"$ref": "AAAAAAGHNnyhnJeZ4ck="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGHNn2GSZez8Zg=",
+							"_parent": {
+								"$ref": "AAAAAAGHNnyhnJeaV1o="
+							},
+							"model": {
+								"$ref": "AAAAAAGHNn2GSJexSwo="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGHNn2GSZe0ba8=",
+									"_parent": {
+										"$ref": "AAAAAAGHNn2GSZez8Zg="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 96,
+									"width": 46.18994140625,
+									"height": 13,
+									"text": "Model",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGHNn2GSZe1oL8=",
+									"_parent": {
+										"$ref": "AAAAAAGHNn2GSZez8Zg="
+									},
+									"font": "Arial;13;0",
+									"left": 186,
+									"top": 69,
+									"width": 46.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 176,
+							"top": 64,
+							"width": 66.18994140625,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGHNn2GSZe0ba8="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGHNn2GSZe1oL8="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGHNpYd75fBw5s=",
+							"_parent": {
+								"$ref": "AAAAAAGHNnyhnJeaV1o="
+							},
+							"model": {
+								"$ref": "AAAAAAGHNpYd7pe/RXI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGHNpYd8ZfHQZQ=",
+									"_parent": {
+										"$ref": "AAAAAAGHNpYd75fBw5s="
+									},
+									"font": "Arial;13;0",
+									"left": 10,
+									"top": 69,
+									"width": 77,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGHNpYd8JfCSSA=",
+									"_parent": {
+										"$ref": "AAAAAAGHNpYd75fBw5s="
+									},
+									"font": "Arial;13;0",
+									"left": 10,
+									"top": 74,
+									"width": 77,
+									"height": 26,
+									"text": "Fetch Data from Twitter",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGHNpYd8JfDwZ0=",
+									"_parent": {
+										"$ref": "AAAAAAGHNpYd75fBw5s="
+									},
+									"font": "Arial;13;0",
+									"left": -24,
+									"top": 24,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"top": 64,
+							"width": 97,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGHNpYd8JfCSSA="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGHNpcUIZfZ824=",
+							"_parent": {
+								"$ref": "AAAAAAGHNnyhnJeaV1o="
+							},
+							"model": {
+								"$ref": "AAAAAAGHNpcUIJfXAa4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGHNpcUIpfabnk=",
+									"_parent": {
+										"$ref": "AAAAAAGHNpcUIZfZ824="
+									},
+									"model": {
+										"$ref": "AAAAAAGHNpcUIJfXAa4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 136,
+									"top": 67,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGHNpcUIZfZ824="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGHNn2GSZez8Zg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGHNpYd75fBw5s="
+							},
+							"lineStyle": 2,
+							"points": "96:88;176:88",
+							"nameLabel": {
+								"$ref": "AAAAAAGHNpcUIpfabnk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGHNn2GSJexSwo=",
+					"_parent": {
+						"$ref": "AAAAAAGHNnyhnJeZ4ck="
+					},
+					"name": "Model"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGHNpYd7pe/RXI=",
+					"_parent": {
+						"$ref": "AAAAAAGHNnyhnJeZ4ck="
+					},
+					"name": "Fetch Data from Twitter",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGHNpcUIJfXAa4=",
+							"_parent": {
+								"$ref": "AAAAAAGHNpYd7pe/RXI="
+							},
+							"source": {
+								"$ref": "AAAAAAGHNpYd7pe/RXI="
+							},
+							"target": {
+								"$ref": "AAAAAAGHNn2GSJexSwo="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
