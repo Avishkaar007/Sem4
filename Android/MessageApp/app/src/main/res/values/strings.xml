@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MessageApp</string>
+    <string name="hint">Enter Message here</string>
+</resources>

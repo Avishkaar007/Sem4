@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Receive">
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="292dp"
+        android:layout_height="128dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="59dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
